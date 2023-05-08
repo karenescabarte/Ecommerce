@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Events</title>
+	</head>
+	<body>
+        <main class="event-page">
+		<h1>Welcome, Carrie!</h1>
+		<nav>
+			<a href="profile.html">Edit My Profile</a>
+			<a href="index.html">Logout</a>
+		</nav>
+		<p>Here are some of the events at your state:</p>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+				<th>Location</th>
+				<th>Host</th>
+				<th>Action/Status</th>
+			</tr>
+			<tr>
+				<td><a href="#">Cooking Lesson</a></td>
+				<td>November 30 2014</td>
+				<td>Seattle</td>
+				<td>Steve</td>
+				<td><a href="#">Join</a></td>
+			</tr>
+			<tr>
+				<td><a href="#">Thanksgiving Party</a></td>
+				<td>November 27 2014</td>
+				<td>Bellevue</td>
+				<td>Sonia</td>
+				<td>Joining <a href="#">Cancel</a></td>
+			</tr>
+			<tr>
+				<td><a href="#">Wine Tasting</a></td>
+				<td>November 26 2014</td>
+				<td>Belleveu</td>
+				<td>Carrie</td>
+				<td><a href="#">Edit</a> <a href="#">Delete</a></td>
+			</tr>
+		</table>
+
+		<p>Here are some of the events on other states:</p>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Date</th>
+				<th>Location</th>
+				<th>State</th>
+				<th>Host</th>
+				<th>Action</th>
+			</tr>
+			<tr>
+				<td><a href="#">Book Review Session</a></td>
+				<td>December 30 2014</td>
+				<td>Phoenix</td>
+				<td>AZ</td>
+				<td>Anthony</td>
+				<td><a href="#">Join</a></td>
+			</tr>
+			<tr>
+				<td><a href="event-detail.html">Garage Sale</a></td>
+				<td>Novemeber 28 2014</td>
+				<td>Mountain View</td>
+				<td>CA</td>
+				<td>Azir</td>
+				<td><a href="#">Join</a></td>
+			</tr>
+		</table>
+
+		<form action="" class="event">
+            <h2>Add Event</h2>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" />
+
+            <label for="date">Date:</label>
+			<input type="date" name="date" id="date"/>
+
+            <label for="location">Location:</label>
+            <input type="text" name="location" id="location" class="location" />
+            <select name="loc" id="loc">
+                <option value="wa">WA</option>
+                <option value="A">A</option>
+            </select>
+
+            <input type="button" value="Add Event" />
+		</form>
+    
+    </main>
+	</body>
+</html>

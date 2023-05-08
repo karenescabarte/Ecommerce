@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Profile</title>
+	</head>
+	<body>
+		<nav>
+			<a href="events.html">Events Dashboard</a>
+			<a href="index.html">Logout</a>
+		</nav>
+
+		<form action="" class="profile">
+			<h2>Edit Your Profile</h2>
+
+			<label for="firstname">First Name:</label>
+			<input type="text" name="firstname" id="firstname" />
+
+			<label for="lastname">Last Name:</label>
+			<input type="text" name="lastname" id="lastname" />
+
+			<label for="email">Email:</label>
+			<input type="text" name="email" id="email" />
+
+			<label for="location">Location:</label>
+			<input type="text" name="location" id="location" class="location" />
+			<select name="loc" id="loc">
+				<option value="wa">WA</option>
+				<option value="A">A</option>
+			</select>
+
+			<input type="button" value="Update Records" />
+		</form>
+	</body>
+</html>

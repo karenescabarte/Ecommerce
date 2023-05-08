@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+/* Index CSS */
+fieldset {
+    display: inline-block;
+    max-width: 300px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+fieldset input {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 3px;
+}
+
+fieldset label {
+    display: inline-block;
+    width: 100px;
+}
+
+fieldset select {
+    display: inline-block;
+}
+
+fieldset #location {
+    width: 44%;
+}
+
+fieldset#login {
+    vertical-align: top;
+}
+
+fieldset input[type=button]{
+    position: relative;
+    left: 175px;
+    width: 100px;
+}
+
+/* Events CSS*/
+nav {
+    max-width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table td {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(222, 217, 217);
+    padding: 10px;
+}
+
+main.event-page p{
+    padding: 15px 0;
+}
+
+form.event {
+    display: inline-block;
+    max-width: 300px;
+    position: relative;
+}
+
+form.event h2{
+    margin: 20px 0;
+}
+
+form.event input {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 3px;
+}
+
+form.event label {
+    display: inline-block;
+    width: 100px;
+}
+
+form.event select {
+    display: inline-block;
+}
+
+form.event .location {
+    width: 40%;
+}
+
+form.event input[type=button]{
+    position: relative;
+    left: 175px;
+    width: 100px;
+    cursor: pointer;
+}
+
+form.event input[type=date]{
+    max-width: 800px;
+}
+
+/* Profile CSS */
+form.profile {
+    display: inline-block;
+    max-width: 300px;
+    position: relative;
+}
+
+form.profile h2{
+    margin: 20px 0;
+}
+
+form.profile input {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 3px;
+}
+
+form.profile label {
+    display: inline-block;
+    width: 100px;
+}
+
+form.profile select {
+    display: inline-block;
+}
+
+form.profile .location {
+    width: 40%;
+}
+
+form.profile input[type=button]{
+    position: relative;
+    left: 165px;
+    width: 110px;
+    cursor: pointer;
+}
+
+form.event input[type=date]{
+    max-width: 800px;
+}
+/* Event details */
+main.profile {
+
+    display: inline-block;}
+
+main.profile p {
+    margin: 20px;
+}
+h2.event-discussion-title {
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+
+section.discussion-event {
+    display: inline-block;
+    overflow: scroll;
+    height: 300px;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+
+table.event-details {
+    display: inline-block;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+form.comments {
+    position: absolute;
+    top: 500px;
+    right: 310px;
+}
+
+form.comments h3 {
+    padding-bottom: 20px;
+}
+
+form.comments input[type=button]{
+    position: relative;
+    left: 402px;
+    width: 130px;
+    padding: 10px;
+    cursor: pointer;
+}
